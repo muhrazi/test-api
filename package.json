@@ -1,0 +1,25 @@
+{
+    "name": "toko",
+    "version": "1.0.0",
+    "description": "rest api for toko",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon --exec babel-node server.js"
+    },
+    "author": "fany",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "mysql2": "^2.1.0",
+      "sequelize": "^5.21.12"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.10.2",
+      "@babel/node": "^7.10.1",
+      "@babel/preset-env": "^7.10.2",
+      "nodemon": "^2.0.4"
+    }
+  }
+  
