@@ -1,4 +1,4 @@
-import {User} from '../models/users'
+import {User} from '../models/Users'
 
 exports.list =  () => async(req, res) => {
   try{
